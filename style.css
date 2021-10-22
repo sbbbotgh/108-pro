@@ -1,0 +1,54 @@
+body{
+    background-color: #e75480;
+}
+
+#header_pago {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: whitesmoke;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#header_pago h4,p{
+    font-family: 'Patrick Hand', cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: whitesmoke;
+    color: #333;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 5px 3px 5px #333;
+  }
+
+#beat{
+    animation: heart infinite 3s;
+    width: 16px;
+}
+
+@keyframes heart {
+    25%{
+        width: 20px;
+    }
+    50%{
+        width: 16px;
+    }
+    75%{
+        width: 20px;
+    }
+    100%{
+        width: 16px;
+    }
+}
+
+button{
+    letter-spacing: 8px;
+}
